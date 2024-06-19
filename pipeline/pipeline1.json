@@ -68,7 +68,7 @@
 							},
 							"inputs": [
 								{
-									"referenceName": "TablesQuery",
+									"referenceName": "SqlTable",
 									"type": "DatasetReference"
 								}
 							]
