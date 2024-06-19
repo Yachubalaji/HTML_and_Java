@@ -17,6 +17,7 @@
 				"typeProperties": {
 					"source": {
 						"type": "AzureSqlSource",
+						"sqlReaderQuery": "select * from [codewithyu-medallion-db-dev].information_schema.tables\nwhere table_schema ='SalesLT'\nand table_type='Base Table'",
 						"queryTimeout": "02:00:00",
 						"partitionOption": "None"
 					},
