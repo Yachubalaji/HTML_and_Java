@@ -9,7 +9,7 @@
 			"FolderName": {
 				"type": "string"
 			},
-			"FilePath": {
+			"FileName": {
 				"type": "string"
 			}
 		},
@@ -17,7 +17,15 @@
 		"type": "Parquet",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobFSLocation"
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().FileName",
+					"type": "Expression"
+				},
+				"folderPath": {
+					"value": "@dataset().FolderName",
+					"type": "Expression"
+				}
 			},
 			"compressionCodec": "snappy"
 		},
