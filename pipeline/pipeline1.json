@@ -29,7 +29,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "Athletes",
+						"referenceName": "DelimitedText1",
 						"type": "DatasetReference"
 					}
 				]
