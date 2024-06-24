@@ -1,0 +1,9 @@
+{
+	"name": "tokyo-olympic-dfb",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "fab11931-a955-435d-a522-f446904afdd2",
+		"tenantId": "bfa9b058-8c96-48d8-9cea-8c12fab1adab"
+	}
+}
